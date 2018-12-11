@@ -359,17 +359,6 @@ coll.first().delete()
 
 
 
-client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Desert Bot- Script By : i1Suhaib`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Bot System  | by Abdellhadi`,"http://twitch.tv/S-F")
-client.user.setStatus("dnd")
-});
-
 
 
 
