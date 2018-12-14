@@ -3149,7 +3149,7 @@ client.on('message', message => {
 
 
 
-client.on('ready',async () => { client.channels.find(ch => ch.id === "522079169027375113" && ch.type === 'voice').join(); });
+client.on('ready',async () => { client.channels.find(ch => ch.id === "517028839600422923" && ch.type === 'voice').join(); });
 
 
 
