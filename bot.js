@@ -3158,7 +3158,7 @@ client.on('ready',async () => { client.channels.find(ch => ch.id === "5170288396
 
 client.on('message', message => {
     if(message.channel.type === 'dm') {
-        var guildID = 'Guild ID'; // <=============== ايدي السيرفر حقك
+        var guildID = '505075875771842571'; // <=============== ايدي السيرفر حقك
         if(message.content.includes('discord.gg/')) {
             var member = client.guilds.find(g => g.id === guildID).members.find(m => m.id === message.author.id);
             member.ban({ reason: 'ADS In Private.' }).catch();
